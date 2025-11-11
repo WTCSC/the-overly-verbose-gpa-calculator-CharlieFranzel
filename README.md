@@ -1,2 +1,29 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/38izMa6v)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21596186)
+**Overly Verbose GPA Calculator**
+
+This is a simple Python program that calculates a GPA based on a list of grades. The user enters their grades, and the program checks that each one is between 0.0 and 4.0. Then it calculates the overall GPA and a semester GPA by splitting the list in half.
+
+The program also asks the user for a goal GPA and checks if they can reach it by improving one grade to a 4.0.
+
+Features
+
+Input validation for grades (0.0–4.0)
+
+Calculates overall GPA
+
+Calculates semester GPA using list slicing
+
+Checks if a goal GPA can be reached by raising one grade
+
+How to Run
+
+Install Python 3
+
+Save the .py file
+
+Run it from a terminal using:
+
+python3 gpa_calculator.py
+
+Requirements
+
+Python 3
